@@ -1,0 +1,9 @@
+{   
+    "TableName": "Training",
+    "FilterExpression":"Recipient = :recipient",
+    "ExpressionAttributeValues": { 
+        ":recipient" : { 
+           "S": "WWF"
+        }
+     }
+}

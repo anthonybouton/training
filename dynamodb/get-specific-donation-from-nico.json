@@ -1,0 +1,16 @@
+{
+    "TableName": "Training",
+    "ConsistentRead": false,
+    "ReturnConsumedCapacity": "NONE",
+    "AttributesToGet": [
+        "Amount"
+    ],
+    "Key": {
+        "PK": {
+            "S": "Nico"
+        },
+        "SK": {
+            "S": "20210102"
+        }
+    }
+}

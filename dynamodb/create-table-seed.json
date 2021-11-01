@@ -25,6 +25,24 @@
                         "S": "Nico"
                     },
                     "SK": {
+                        "S": "20200101"
+                    },
+                    "Recipient":{
+                        "S":"WWF"
+                    },
+                    "Amount": {
+                        "N": "11"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "PK": {
+                        "S": "Nico"
+                    },
+                    "SK": {
                         "S": "20210102"
                     },
                     "Recipient": {
@@ -64,7 +82,7 @@
                         "S": "20210404"
                     },
                     "Recipient": {
-                        "S": "Royal Institute Of Technology"
+                        "S": "WWF"
                     },
                     "Amount": {
                         "N": "0.5"

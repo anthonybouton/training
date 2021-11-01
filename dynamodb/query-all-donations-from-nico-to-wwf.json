@@ -1,0 +1,16 @@
+{
+    "TableName": "Training",
+    "Limit": 100,
+    "ConsistentRead": true,
+    "ReturnConsumedCapacity": "NONE",
+    "KeyConditionExpression": "PK = :pk",
+    "FilterExpression": "Recipient = :recipient",
+    "ExpressionAttributeValues": {
+        ":pk": {
+            "S": "Nico"
+        },
+        ":recipient": {
+            "S": "WWF"
+        }
+    }
+}

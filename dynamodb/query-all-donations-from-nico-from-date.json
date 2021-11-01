@@ -1,0 +1,15 @@
+{
+    "TableName": "Training",
+    "Limit": 100,
+    "ConsistentRead": true,
+    "ReturnConsumedCapacity": "NONE",
+    "KeyConditionExpression": "PK = :pk and SK = :sk",
+    "ExpressionAttributeValues": {
+        ":pk": {
+            "S": "Nico"
+        },
+        ":sk": {
+            "S": "20210102"
+        }
+    }
+}
