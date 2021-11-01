@@ -1,0 +1,25 @@
+Have Docker Installed ( Linux based )
+Have DynamoDB Workbench installed ( https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.settingup.html )
+Have the AWS CLI Installed ( https://aws.amazon.com/cli/ )
+Have .NET 5.0 SDK Installed ( https://dotnet.microsoft.com/download/dotnet/5.0 )
+
+
+
+1. Start your local instance of DynamoDB
+Open a terminal and run "docker-compose up -d dynamodb" (without the quotes)
+
+2. Open DynamoDB Workbench and verify your connection to your local DynamoDB
+Open the operation builder in the workbench and press "Add Connection"
+Hit the tab that says "DynamoDB Local" and give the connection a name that makes sense to you
+After adding the connection press Open on the newly added connection
+You are now connected to your local DynamoDB Instance!
+
+3. Configure the AWS CLI
+Since we are using the local DynamoDB, every access key id and secret access key will work, that is, if we configured the cli
+In the terminal type
+aws configure
+AWS Access Key ID: training
+AWS Secret Access Key: training
+Default Region name : eu-central-1
+Default output format : json
+

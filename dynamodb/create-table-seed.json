@@ -1,0 +1,130 @@
+{
+    "Training": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "PK": {
+                        "S": "Nico"
+                    },
+                    "SK": {
+                        "S": "20210101"
+                    },
+                    "Recipient":{
+                        "S":"WWF"
+                    },
+                    "Amount": {
+                        "N": "12"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "PK": {
+                        "S": "Nico"
+                    },
+                    "SK": {
+                        "S": "20210102"
+                    },
+                    "Recipient": {
+                        "S": "Red Cross"
+                    },
+                    "Amount": {
+                        "N": "5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "PK": {
+                        "S": "Lisa"
+                    },
+                    "SK": {
+                        "S": "20210301"
+                    },
+                    "Recipient": {
+                        "S": "Sea Life"
+                    },
+                    "Amount": {
+                        "N": "50"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "PK": {
+                        "S": "Lander"
+                    },
+                    "SK": {
+                        "S": "20210404"
+                    },
+                    "Recipient": {
+                        "S": "Royal Institute Of Technology"
+                    },
+                    "Amount": {
+                        "N": "0.5"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "PK": {
+                        "S": "Kjell"
+                    },
+                    "SK": {
+                        "S": "20210101"
+                    },
+                    "Recipient": {
+                        "S": "Animal Protection Services"
+                    },
+                    "Amount": {
+                        "N": "150"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "PK": {
+                        "S": "Alexandra"
+                    },
+                    "SK": {
+                        "S": "20210601"
+                    },
+                    "Recipient": {
+                        "S": "Child Protection Services"
+                    },
+                    "Amount": {
+                        "N": "50"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "PK": {
+                        "S": "Norm"
+                    },
+                    "SK": {
+                        "S": "20210201"
+                    },
+                    "Recipient": {
+                        "S": "Local Clinic California"
+                    },
+                    "Amount": {
+                        "N": "77"
+                    }
+                }
+            }
+        }
+    ]
+}

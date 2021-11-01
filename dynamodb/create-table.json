@@ -1,0 +1,29 @@
+{
+    "AttributeDefinitions": [
+        {
+            "AttributeName": "PK",
+            "AttributeType": "S"
+        },
+        {
+            "AttributeName": "SK",
+            "AttributeType": "S"
+        }
+    ],
+    "TableName": "Training",
+    "KeySchema": [
+        {
+            "AttributeName": "PK",
+            "KeyType": "HASH"
+        },
+        {
+            "AttributeName": "SK",
+            "KeyType": "RANGE"
+        }
+    ],
+
+    "BillingMode": "PROVISIONED",
+    "ProvisionedThroughput": {
+        "ReadCapacityUnits": 1,
+        "WriteCapacityUnits": 1
+    }
+}
