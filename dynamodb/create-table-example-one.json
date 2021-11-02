@@ -1,0 +1,130 @@
+{
+    "LocalSecondaryIndexes": [
+        {
+            "IndexName": "LSI1",
+            "KeySchema": [
+                {
+                    "AttributeName": "PK",
+                    "KeyType": "HASH"
+                },
+                {
+                    "AttributeName": "LSI1SK",
+                    "KeyType": "RANGE"
+                }
+            ],
+            "Projection": {
+                "ProjectionType": "ALL"
+            }
+        },
+        {
+            "IndexName": "LSI2",
+            "KeySchema": [
+                {
+                    "AttributeName": "PK",
+                    "KeyType": "HASH"
+                },
+                {
+                    "AttributeName": "LSI2SK",
+                    "KeyType": "RANGE"
+                }
+            ],
+            "Projection": {
+                "ProjectionType": "ALL"
+            }
+        },
+        {
+            "IndexName": "LSI3",
+            "KeySchema": [
+                {
+                    "AttributeName": "PK",
+                    "KeyType": "HASH"
+                },
+                {
+                    "AttributeName": "LSI3SK",
+                    "KeyType": "RANGE"
+                }
+            ],
+            "Projection": { 
+                "ProjectionType": "ALL"
+             }
+        },
+        {
+            "IndexName": "LSI4",
+            "KeySchema": [
+                {
+                    "AttributeName": "PK",
+                    "KeyType": "HASH"
+                },
+                {
+                    "AttributeName": "LSI4SK",
+                    "KeyType": "RANGE"
+                }
+            ],
+            "Projection": { 
+                "ProjectionType": "ALL"
+             }
+        },
+        {
+            "IndexName": "LSI5",
+            "KeySchema": [
+                {
+                    "AttributeName": "PK",
+                    "KeyType": "HASH"
+                },
+                {
+                    "AttributeName": "LSI5SK",
+                    "KeyType": "RANGE"
+                }
+            ],
+            "Projection": { 
+                "ProjectionType": "ALL"
+             }
+        }
+    ],
+    "AttributeDefinitions": [
+        {
+            "AttributeName": "PK",
+            "AttributeType": "S"
+        },
+        {
+            "AttributeName": "SK",
+            "AttributeType": "S"
+        },
+        {
+            "AttributeName": "LSI1SK",
+            "AttributeType": "S"
+        },
+        {
+            "AttributeName": "LSI2SK",
+            "AttributeType": "S"
+        },
+        {
+            "AttributeName": "LSI3SK",
+            "AttributeType": "S"
+        },
+        {
+            "AttributeName": "LSI4SK",
+            "AttributeType": "S"
+        },
+        {
+            "AttributeName": "LSI5SK",
+            "AttributeType": "S"
+        }
+    ],
+    "TableName": "Donations",
+    "KeySchema": [
+        {
+            "AttributeName": "PK",
+            "KeyType": "HASH"
+        },
+        {
+            "AttributeName": "SK",
+            "KeyType": "RANGE"
+        }
+    ],
+    "BillingMode": "PROVISIONED",
+    "ProvisionedThroughput": {
+        "ReadCapacityUnits": 1,
+        "WriteCapacityUnits": 1
+    }
+}

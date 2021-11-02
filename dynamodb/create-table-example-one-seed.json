@@ -1,0 +1,94 @@
+{
+    "Training": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "PK": {
+                        "S": "DONATION"
+                    },
+                    "SK": {
+                        "S": "DONATION#202101010#0845#WWF#Nico"
+                    },
+                    "LSI1SK": {
+                        "S": "DONATION#RECIPIENT#WWF"
+                    },
+                    "LSI2SK": {
+                        "S": "DONATION#USER#Nico"
+                    },
+                    "Amount": {
+                        "N": "12"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "PK": {
+                        "S": "COUNTER"
+                    },
+                    "SK": {
+                        "S": "DATE#20210101#RECIPIENT#WWF"
+                    },
+                    "Amount": {
+                        "N": "124544"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "PK": {
+                        "S": "COUNTER"
+                    },
+                    "SK": {
+                        "S": "DATE#20210102#RECIPIENT#WWF"
+                    },
+                    "Amount": {
+                        "N": "124544"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "PK": {
+                        "S": "DONATION"
+                    },
+                    "SK": {
+                        "S": "DONATION#202101020#0845#WWF#Nico"
+                    },
+                    "LSI1SK": {
+                        "S": "DONATION#RECIPIENT#WWF"
+                    },
+                    "LSI2SK": {
+                        "S": "DONATION#USER#Nico"
+                    },
+                    "Amount": {
+                        "N": "12"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "PK": {
+                        "S": "USER"
+                    },
+                    "SK": {
+                        "S": "PROFILE#Nico"
+                    },
+                    "FirstName": {
+                        "S": "Nico"
+                    },
+                    "Email": {
+                        "S": "email@provider.extension"
+                    }
+                }
+            }
+        }
+    ]
+}

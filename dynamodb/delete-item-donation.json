@@ -1,0 +1,12 @@
+{
+    "TableName": "Training",
+    "Key": {
+        "PK": {
+            "S": "Anthony"
+        },
+        "SK": {
+            "S": "20210211"
+        }
+    },
+    "ReturnValues": "ALL_OLD"
+}
