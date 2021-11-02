@@ -1,0 +1,22 @@
+{
+    "TableName": "Training",
+    "Key": {
+        "PK": {
+            "S": "Anthony"
+        },
+        "SK": {
+            "S": "20210211"
+        }
+    },
+    "ReturnValues": "UPDATED_NEW",
+    "UpdateExpression": "SET Amount = :newAmount",
+    "ConditionExpression": "Amount = :originalAmount",
+    "ExpressionAttributeValues": {
+        ":newAmount": {
+            "N": "100"
+        },
+        ":originalAmount": {
+            "N": "11.50"
+        }
+    }
+}

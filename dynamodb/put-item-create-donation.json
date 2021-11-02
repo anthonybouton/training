@@ -1,0 +1,26 @@
+{
+    "TableName": "Training",
+    "ConditionExpression": "PK <> :pk AND SK <> :sk",
+    "ExpressionAttributeValues": {
+        ":pk": {
+            "S": "Anthony"
+        },
+        ":sk": {
+            "S": "20210211"
+        }
+    },
+    "Item": {
+        "PK": {
+            "S": "Anthony"
+        },
+        "SK": {
+            "S": "20210211"
+        },
+        "Recipient": {
+            "S": "Institution for cancer research"
+        },
+        "Amount": {
+            "N": "11.50"
+        }
+    }
+}
